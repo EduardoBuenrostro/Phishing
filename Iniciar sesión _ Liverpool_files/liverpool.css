@@ -1,0 +1,41 @@
+.liverpool+main a[href^="/u/login?state="],
+.liverpool+main a[href^="/u/mfa-sms-enrollment"] {
+  color: #e10098 !important;
+}
+
+.liverpool+main p a,
+.liverpool+main p button {
+  text-decoration: underline;
+  color: #e10098 !important;
+}
+
+.liverpool+main input:focus~div {
+  color: #e10098 !important;
+}
+
+.liverpool+main .input:focus-within,
+.liverpool+main .password:focus-within {
+  border-color: #e10098 !important;
+  box-shadow: none !important;
+}
+
+.liverpool+main button[class~="_link-resend-code"] {
+  color: #666666 !important;
+}
+
+.liverpool+main div>button[value=forgot-password] {
+  text-decoration: underline;
+  color: #e10098 !important;
+}
+
+.liverpool+main div>button[value=default] {
+  background: #e10098;
+}
+
+._prompt-box-outer>div>div>section a {
+  background: #e10098;
+}
+
+._prompt-box-outer>div>div>section>div {
+  background: #e10098;
+}
